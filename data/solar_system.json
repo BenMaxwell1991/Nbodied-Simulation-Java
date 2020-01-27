@@ -1,0 +1,120 @@
+{
+  "name": "Solar_System",
+  "timeElapsed": 0.0,
+  "objects": [
+    {
+      "name": "Sun",
+      "mass": 1.989E30,
+      "position": {
+        "xValue": 0.0,
+        "yValue": 0.0,
+        "zValue": 0.0
+      },
+      "velocity": {
+        "xValue": 0.0,
+        "yValue": 0.0,
+        "zValue": 0.0
+      },
+      "acceleration": {
+        "xValue": 0.0,
+        "yValue": 0.0,
+        "zValue": 0.0
+      }
+    },
+    {
+      "name": "Mercury",
+      "mass": 3.3E23,
+      "position": {
+        "xValue": 4.6E10,
+        "yValue": 0.0,
+        "zValue": 0.0
+      },
+      "velocity": {
+        "xValue": 0.0,
+        "yValue": 58980.0,
+        "zValue": 0.0
+      },
+      "acceleration": {
+        "xValue": 0.0,
+        "yValue": 0.0,
+        "zValue": 0.0
+      }
+    },
+    {
+      "name": "Venus",
+      "mass": 4.87E24,
+      "position": {
+        "xValue": 1.0748E11,
+        "yValue": 0.0,
+        "zValue": 0.0
+      },
+      "velocity": {
+        "xValue": 0.0,
+        "yValue": 35260.0,
+        "zValue": 0.0
+      },
+      "acceleration": {
+        "xValue": 0.0,
+        "yValue": 0.0,
+        "zValue": 0.0
+      }
+    },
+    {
+      "name": "Earth",
+      "mass": 5.97E24,
+      "position": {
+        "xValue": 1.47098E11,
+        "yValue": 0.0,
+        "zValue": 0.0
+      },
+      "velocity": {
+        "xValue": 0.0,
+        "yValue": 30280.0,
+        "zValue": 0.0
+      },
+      "acceleration": {
+        "xValue": 0.0,
+        "yValue": 0.0,
+        "zValue": 0.0
+      }
+    },
+    {
+      "name": "Moon",
+      "mass": 7.346E22,
+      "position": {
+        "xValue": 1.47461E11,
+        "yValue": 0.0,
+        "zValue": 0.0
+      },
+      "velocity": {
+        "xValue": 0.0,
+        "yValue": 31362.0,
+        "zValue": 0.0
+      },
+      "acceleration": {
+        "xValue": 0.0,
+        "yValue": 0.0,
+        "zValue": 0.0
+      }
+    },
+    {
+      "name": "Mars",
+      "mass": 6.4171E23,
+      "position": {
+        "xValue": 2.0662E11,
+        "yValue": 0.0,
+        "zValue": 0.0
+      },
+      "velocity": {
+        "xValue": 0.0,
+        "yValue": 26500.0,
+        "zValue": 0.0
+      },
+      "acceleration": {
+        "xValue": 0.0,
+        "yValue": 0.0,
+        "zValue": 0.0
+      }
+    }
+  ]
+}
