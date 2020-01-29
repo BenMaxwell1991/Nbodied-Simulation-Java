@@ -6,7 +6,24 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05e55591-e68c-4d35-b391-d81954d664a4" name="Default Changelist" comment="" />
+    <list default="true" id="05e55591-e68c-4d35-b391-d81954d664a4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/workspace/com/maxwell/display/TestTriangleOpenGL.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/workspace/com/maxwell/display/mainwindow/Draw.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/workspace/com/maxwell/simulation/test/ClassWithValues.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/workspace/com/maxwell/simulation/test/Modify.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/workspace/com/maxwell/simulation/util/Output.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/workspace/com/maxwell/testoutput/ConsoleOutput.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/workspace/com/maxwell/utility/FileHelper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/maxwell/display/mainwindow/Draw.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/maxwell/simulation/solarsystem/calculate/Simulation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/maxwell/simulation/solarsystem/calculate/Simulation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/maxwell/simulation/test/ClassWithValues.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/maxwell/simulation/test/Modify.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/maxwell/simulation/test/TestTriangleOpenGL.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/maxwell/simulation/util/Output.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/maxwell/testoutput/ConsoleOutput.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/maxwell/utility/FileHelper.java" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,9 +42,12 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1Tq7oBIzAA5iD5X3kRmnY7Pggyb" />
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../libs/gson-2.8.6.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -81,6 +101,17 @@
       <updated>1574175943696</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

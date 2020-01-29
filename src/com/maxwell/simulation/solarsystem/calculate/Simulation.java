@@ -11,7 +11,6 @@ import java.util.ArrayList;
 
 import static com.maxwell.simulation.resources.Constants.secondsInDay;
 import static com.maxwell.simulation.solarsystem.calculate.InertialFrame.getInertialFrame;
-import static com.maxwell.simulation.solarsystem.data.TestData.getTestData;
 import static java.lang.Math.ceil;
 
 /**
