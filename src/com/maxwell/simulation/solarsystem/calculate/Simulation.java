@@ -2,17 +2,16 @@ package com.maxwell.simulation.solarsystem.calculate;
 
 import com.maxwell.simulation.maths.methods.MaxwellSimple;
 import com.maxwell.simulation.solarsystem.data.TestData;
-import com.maxwell.simulation.solarsystem.data.WriteData;
-import com.maxwell.simulation.solarsystem.objects.CelestialBody;
 import com.maxwell.simulation.solarsystem.objects.NBodiedSystem;
 import com.maxwell.simulation.solarsystem.objects.SimulationData;
-import com.maxwell.simulation.util.Output;
-import com.maxwell.utility.FileHelper;
+import com.maxwell.files.FileHelper;
 
 import java.io.IOException;
 import java.util.ArrayList;
 
 import static com.maxwell.simulation.resources.Constants.secondsInDay;
+import static com.maxwell.simulation.solarsystem.calculate.InertialFrame.getInertialFrame;
+import static com.maxwell.simulation.solarsystem.data.TestData.getTestData;
 import static java.lang.Math.ceil;
 
 /**
@@ -53,6 +52,11 @@ public class Simulation {
         // Write data in json format then read this into memory
         TestData.writeTestData(loadPath);
         solarSystem = FileHelper.readData(loadPath, NBodiedSystem.class);
+
+        solarSystem.setObjects(getInertialFrame(solarSystem.getObjects()));
+
+        // Enter the inertial Frame;
+
         simulation.addFrame((NBodiedSystem)solarSystem.clone());
 
         for (int i = 0; i < iterations; i++) {

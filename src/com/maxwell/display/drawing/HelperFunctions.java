@@ -1,9 +1,7 @@
 package com.maxwell.display.drawing;
 
+import com.maxwell.main.Main;
 import com.maxwell.simulation.maths.objects.Vec3;
-import com.maxwell.simulation.solarsystem.objects.NBodiedSystem;
-import com.maxwell.simulation.solarsystem.objects.SimulationData;
-import com.maxwell.utility.FileHelper;
 
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
@@ -11,23 +9,13 @@ import java.nio.FloatBuffer;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-import static com.maxwell.simulation.resources.Constants.savedDataPath;
-
 public class HelperFunctions {
 
-    // Returns an array of the position of every object at every instance of the simulation
-    public static ArrayList<ArrayList<Vec3>> getPositionData() {
+    public static ArrayList<Vec3> getPositionDataByObject(int x) {
+        ArrayList<Vec3> positionData = new ArrayList<>();
 
-        SimulationData data = FileHelper.readData(savedDataPath, SimulationData.class);
-
-        ArrayList<ArrayList<Vec3>> positionData = new ArrayList<>(data.getData().size());
-        for (int i = 0; i < data.getData().size(); i++) {
-            NBodiedSystem frame = data.getData().get(i);
-            positionData.add(new ArrayList<>());
-            for (int j = 0; j < data.getData().get(j).getObjects().size(); j++) {
-                Vec3 object_j_position = frame.getObjects().get(j).position;
-                positionData.get(i).add(object_j_position);
-            }
+        for (int i = 0; i < Main.getSimulationData().size(); i++) {
+            positionData.add(Main.getSimulationData().get(i).getObjects().get(x).position);
         }
         return positionData;
     }
@@ -37,8 +25,9 @@ public class HelperFunctions {
         Arrays.fill(maxValues, 0.0f);
 
         for (int i = 0; i < array.size(); i++) {
-            if (array.get(i).x() > maxValues[0]) { maxValues[0] = (float) array.get(i).x(); }
-            if (array.get(i).y() > maxValues[1]) { maxValues[1] = (float) array.get(i).y(); }
+            if (Math.abs(array.get(i).x()) > maxValues[0]) { maxValues[0] = (float) Math.abs(array.get(i).x()); }
+            if (Math.abs(array.get(i).y()) > maxValues[1]) { maxValues[1] = (float) Math.abs(array.get(i).y()); }
+            if (Math.abs(array.get(i).z()) > maxValues[2]) { maxValues[2] = (float) Math.abs(array.get(i).z()); }
         }
 
         return maxValues;
@@ -65,8 +54,11 @@ public class HelperFunctions {
         return singleObjectData;
     }
 
+    /**
+     * Returns a FloatBuffer wrapper for the floatArray passed in
+     */
     public static FloatBuffer floatToFloatBuffer(float[] floatArray) {
-        // First create ByteBUffer
+        // First create ByteBuffer
         ByteBuffer bb = ByteBuffer.allocateDirect(floatArray.length * 4);
         bb.order(ByteOrder.nativeOrder());
 

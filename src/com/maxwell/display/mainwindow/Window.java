@@ -1,9 +1,12 @@
 package com.maxwell.display.mainwindow;
 
 
+import com.maxwell.display.drawing.Draw;
 import org.lwjgl.opengl.*;
 import org.lwjgl.glfw.*;
 
+import static com.maxwell.display.mainwindow.CallBackFunctions.setKeyCallBack;
+import static com.maxwell.display.mainwindow.CallBackFunctions.setScrollResizeCallback;
 import static org.lwjgl.glfw.Callbacks.*;
 import static org.lwjgl.glfw.GLFW.*;
 import static org.lwjgl.opengl.GL45C.*;
@@ -18,6 +21,9 @@ public class Window {
     private long mainWindow;
     private int winWidth = 0;
     private int winHeight = 0;
+    public float scale_x = 1.0f;
+    public float scale_y = 1.0f;
+    public float scale_z = 1.0f;
 
     public void showMainWindow() {
         initGLFW();
@@ -52,11 +58,8 @@ public class Window {
             throw new RuntimeException("Failed to create the GLFW window");
         }
 
-        // Setup a key callback. It will be called every time a key is pressed, repeated or released.
-        glfwSetKeyCallback(mainWindow, (mainWindow, key, scancode, action, mods) -> {
-            if ( key == GLFW_KEY_ESCAPE && action == GLFW_RELEASE )
-                glfwSetWindowShouldClose(mainWindow, true); // We will detect this in the rendering loop
-        });
+        setKeyCallBack(this, mainWindow);
+        setScrollResizeCallback(this, mainWindow, scale_x, scale_y, scale_z);
 
         // Get the thread stack and push a new frame
         setWindowSize();;
@@ -103,7 +106,7 @@ public class Window {
         while ( !glfwWindowShouldClose(mainWindow) ) {
             glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT); // clear the framebuffer
             Draw.doDraw(mainWindow);
-
+            glfwSwapBuffers(mainWindow);
             // Poll for window events. The key callback above will only be invoked during this call.
             glfwPollEvents();
         }
