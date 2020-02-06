@@ -7,17 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="05e55591-e68c-4d35-b391-d81954d664a4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/maxwell/display/screenresolution/ScreenResolution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/workspace/com/maxwell/display/mainwindow/Window.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/workspace/com/maxwell/display/mainwindow/Window.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/workspace/com/maxwell/files/FileHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/workspace/com/maxwell/files/FileHelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/workspace/com/maxwell/main/ActiveData.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/workspace/com/maxwell/main/ActiveData.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/workspace/com/maxwell/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/workspace/com/maxwell/main/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/workspace/com/maxwell/simulation/solarsystem/calculate/Simulation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/workspace/com/maxwell/simulation/solarsystem/calculate/Simulation.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/maxwell/display/mainwindow/Window.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/maxwell/display/mainwindow/Window.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/maxwell/files/FileHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/maxwell/files/FileHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/maxwell/main/ActiveData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/maxwell/main/ActiveData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/maxwell/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/maxwell/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/maxwell/simulation/solarsystem/calculate/Simulation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/maxwell/simulation/solarsystem/calculate/Simulation.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -127,11 +119,6 @@
           <url>file://$PROJECT_DIR$/src/com/maxwell/display/drawing/Draw.java</url>
           <line>43</line>
           <option name="timeStamp" value="98" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/maxwell/display/mainwindow/Window.java</url>
-          <line>58</line>
-          <option name="timeStamp" value="99" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

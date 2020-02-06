@@ -2,6 +2,8 @@ package com.maxwell.display.mainwindow;
 
 
 import com.maxwell.display.drawing.Draw;
+import com.maxwell.display.screenresolution.ScreenResolution;
+import com.maxwell.display.screenresolution.ScreenResolutionFactory;
 import org.lwjgl.opengl.*;
 import org.lwjgl.glfw.*;
 
@@ -54,10 +56,9 @@ public class Window {
         glfwDefaultWindowHints();
         glfwWindowHint(GLFW_VISIBLE, GLFW_FALSE);
         glfwWindowHint(GLFW_RESIZABLE, GLFW_TRUE);
-        Dimension screensize = Toolkit.getDefaultToolkit().getScreenSize();
-        int windowWidth = (int) Math.round(screensize.getWidth() * 3/4);
-        int windowHeight = (int) Math.round(screensize.getHeight() * 3/4);
-        mainWindow = glfwCreateWindow(windowWidth, windowHeight, "Main Window", NULL, NULL);
+
+        ScreenResolution screenRes = ScreenResolutionFactory.getScreenResolution();
+        mainWindow = glfwCreateWindow(screenRes.getWidth(), screenRes.getHeight(), "Main Window", NULL, NULL);
 
         if (mainWindow == NULL) {
             throw new RuntimeException("Failed to create the GLFW window");
