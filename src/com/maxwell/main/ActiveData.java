@@ -20,7 +20,7 @@ public class ActiveData {
     }
 
     public void readActiveDataFromFile() {
-        simulationData = FileHelper.readData(savedDataPath, SimulationData.class);
+        simulationData = FileHelper.readJson(savedDataPath, SimulationData.class);
     }
 
     public int getObjectNumber() {

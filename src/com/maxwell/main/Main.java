@@ -27,7 +27,7 @@ public class Main {
 
     // Load start conditions, run simulation, save data
     private static void runSimulation() {
-        Simulation sim = new Simulation(3600, 36500, 50);
+        Simulation sim = new Simulation(3600, 3650, 50);
 
         try {
             sim.simulateSolarSystem(initialDataPath, savedDataPath);

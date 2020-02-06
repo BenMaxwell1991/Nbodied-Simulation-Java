@@ -50,8 +50,9 @@ public class Simulation {
 
         // Write data in json format then read this into memory
         TestData.writeTestData(loadPath);
-        solarSystem = FileHelper.readData(loadPath, NBodiedSystem.class);
+        solarSystem = FileHelper.readJson(loadPath, NBodiedSystem.class);
 
+        // Enter the inertial frame of the center of mass for the system.
         solarSystem.setObjects(getInertialFrame(solarSystem.getObjects()));
 
         // Enter the inertial Frame;

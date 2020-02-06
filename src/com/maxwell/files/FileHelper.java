@@ -46,7 +46,7 @@ public class FileHelper {
     /**
      * Reads the Json file at 'path' into memory and returns the object
      */
-    public static <T> T readData(String path, Class<T> classOfT) {
+    public static <T> T readJson(String path, Class<T> classOfT) {
         Object object = new Object();
         try {
             FileReader reader = new FileReader(path);

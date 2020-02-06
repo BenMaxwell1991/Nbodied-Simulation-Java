@@ -5,6 +5,8 @@ import com.maxwell.display.drawing.Draw;
 import org.lwjgl.opengl.*;
 import org.lwjgl.glfw.*;
 
+import java.awt.*;
+
 import static com.maxwell.display.mainwindow.CallBackFunctions.setKeyCallBack;
 import static com.maxwell.display.mainwindow.CallBackFunctions.setScrollResizeCallback;
 import static org.lwjgl.glfw.Callbacks.*;
@@ -52,7 +54,10 @@ public class Window {
         glfwDefaultWindowHints();
         glfwWindowHint(GLFW_VISIBLE, GLFW_FALSE);
         glfwWindowHint(GLFW_RESIZABLE, GLFW_TRUE);
-        mainWindow = glfwCreateWindow(2880, 1620, "Main Window", NULL, NULL);
+        Dimension screensize = Toolkit.getDefaultToolkit().getScreenSize();
+        int windowWidth = (int) Math.round(screensize.getWidth() * 3/4);
+        int windowHeight = (int) Math.round(screensize.getHeight() * 3/4);
+        mainWindow = glfwCreateWindow(windowWidth, windowHeight, "Main Window", NULL, NULL);
 
         if (mainWindow == NULL) {
             throw new RuntimeException("Failed to create the GLFW window");
