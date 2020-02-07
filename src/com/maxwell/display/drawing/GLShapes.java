@@ -1,13 +1,9 @@
 package com.maxwell.display.drawing;
 
 import org.lwjgl.opengl.GL45;
-import org.lwjgl.opengl.GLUtil;
 import org.lwjgl.system.MemoryStack;
 
-import java.nio.ByteBuffer;
-import java.nio.ByteOrder;
 import java.nio.FloatBuffer;
-import java.util.Arrays;
 import java.awt.*;
 import java.nio.IntBuffer;
 

@@ -10,46 +10,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="05e55591-e68c-4d35-b391-d81954d664a4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/workspace_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/SolarSystem.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lwjgl.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/gson_2_8_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/gson_2_8_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/lwjgl_glfw.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/lwjgl_glfw.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/lwjgl_opengl.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/lwjgl_opengl.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/workspace/com/maxwell/display/drawing/Draw.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/workspace/com/maxwell/display/drawing/DrawingVerticies.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/workspace/com/maxwell/display/drawing/GLShapes.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/workspace/com/maxwell/display/drawing/HelperFunctions.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/workspace/com/maxwell/display/mainwindow/CallBackFunctions.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/workspace/com/maxwell/display/mainwindow/Window.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/workspace/com/maxwell/display/screenresolution/ScreenResolution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/workspace/com/maxwell/display/screenresolution/ScreenResolutionFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/workspace/com/maxwell/files/FileHelper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/workspace/com/maxwell/main/ActiveData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/workspace/com/maxwell/main/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/workspace/com/maxwell/simulation/maths/methods/CalculateTimestep.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/workspace/com/maxwell/simulation/maths/methods/MaxwellSimple.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/workspace/com/maxwell/simulation/maths/objects/Vec3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/workspace/com/maxwell/simulation/resources/Constants.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/workspace/com/maxwell/simulation/solarsystem/calculate/CenterOfMass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/workspace/com/maxwell/simulation/solarsystem/calculate/InertialFrame.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/workspace/com/maxwell/simulation/solarsystem/calculate/Iterate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/workspace/com/maxwell/simulation/solarsystem/calculate/Simulation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/workspace/com/maxwell/simulation/solarsystem/data/TestData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/workspace/com/maxwell/simulation/solarsystem/data/WriteData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/workspace/com/maxwell/simulation/solarsystem/objects/CelestialBody.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/workspace/com/maxwell/simulation/solarsystem/objects/NBodiedSystem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/workspace/com/maxwell/simulation/solarsystem/objects/PhysicalObject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/workspace/com/maxwell/simulation/solarsystem/objects/SimulationData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/workspace/com/maxwell/simulation/solarsystem/objects/SolarObjects.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/workspace/com/maxwell/zBitsAndBobs/ClassWithValues.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/workspace/com/maxwell/zBitsAndBobs/Modify.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/workspace/com/maxwell/zBitsAndBobs/TestShapes.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/workspace/com/maxwell/zBitsAndBobs/TestTriangleOpenGL.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/maxwell/display/drawing/Draw.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/maxwell/display/drawing/Draw.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/maxwell/display/drawing/DrawingVerticies.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/maxwell/display/drawing/DrawingVerticies.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/maxwell/display/drawing/HelperFunctions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/maxwell/display/drawing/HelperFunctions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/maxwell/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/maxwell/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workspace.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Solar_System.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solar_System.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Solar_System.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/simulation_results.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/simulation_results.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/solar_system.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/solar_system.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Solar_System/com/maxwell/display/drawing/GLShapes.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Solar_System/com/maxwell/display/drawing/GLShapes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Solar_System/com/maxwell/files/FileHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Solar_System/com/maxwell/files/FileHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Solar_System/com/maxwell/main/ActiveData.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Solar_System/com/maxwell/main/ActiveData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Solar_System/com/maxwell/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Solar_System/com/maxwell/main/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/maxwell/display/drawing/GLShapes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/maxwell/display/drawing/GLShapes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/maxwell/files/FileHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/maxwell/files/FileHelper.java" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -71,10 +46,16 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1Tq7oBIzAA5iD5X3kRmnY7Pggyb" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../gson/lib/gson-2.8.6.jar!/" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="gradle.compiler" />
@@ -86,18 +67,6 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\workspace\Java\solarsystem\src\com\maxwell\simulation" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
@@ -140,6 +109,63 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-1368" y="239" key="#Project_Structure" timestamp="1581115642267">
+      <screen x="-1920" y="0" width="1920" height="1160" />
+    </state>
+    <state x="-1368" y="239" key="#Project_Structure/-1920.0.1920.1160/0.0.1920.1160@-1920.0.1920.1160" timestamp="1581115642267" />
+    <state x="552" y="239" key="#Project_Structure/-1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1581115160718" />
+    <state x="414" y="236" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581114102549">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="414" y="236" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1581114102549" />
+    <state x="714" y="296" key="DetectedRootsChooserDialog" timestamp="1581115156394">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="714" y="296" key="DetectedRootsChooserDialog/-1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1581115156394" />
+    <state x="-963" y="343" key="FileChooserDialogImpl" timestamp="1581115635528">
+      <screen x="-1920" y="0" width="1920" height="1160" />
+    </state>
+    <state x="-963" y="343" key="FileChooserDialogImpl/-1920.0.1920.1160/0.0.1920.1160@-1920.0.1920.1160" timestamp="1581115635528" />
+    <state x="957" y="343" key="FileChooserDialogImpl/-1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1581115154823" />
+    <state width="1877" height="386" key="GridCell.Tab.0.bottom" timestamp="1581116076019">
+      <screen x="-1920" y="0" width="1920" height="1160" />
+    </state>
+    <state width="1877" height="386" key="GridCell.Tab.0.bottom/-1920.0.1920.1160/0.0.1920.1160@-1920.0.1920.1160" timestamp="1581116076019" />
+    <state width="1877" height="386" key="GridCell.Tab.0.center" timestamp="1581116076019">
+      <screen x="-1920" y="0" width="1920" height="1160" />
+    </state>
+    <state width="1877" height="386" key="GridCell.Tab.0.center/-1920.0.1920.1160/0.0.1920.1160@-1920.0.1920.1160" timestamp="1581116076019" />
+    <state width="1877" height="386" key="GridCell.Tab.0.left" timestamp="1581116076019">
+      <screen x="-1920" y="0" width="1920" height="1160" />
+    </state>
+    <state width="1877" height="386" key="GridCell.Tab.0.left/-1920.0.1920.1160/0.0.1920.1160@-1920.0.1920.1160" timestamp="1581116076019" />
+    <state width="1877" height="386" key="GridCell.Tab.0.right" timestamp="1581116076019">
+      <screen x="-1920" y="0" width="1920" height="1160" />
+    </state>
+    <state width="1877" height="386" key="GridCell.Tab.0.right/-1920.0.1920.1160/0.0.1920.1160@-1920.0.1920.1160" timestamp="1581116076019" />
+    <state width="1877" height="386" key="GridCell.Tab.1.bottom" timestamp="1581116076019">
+      <screen x="-1920" y="0" width="1920" height="1160" />
+    </state>
+    <state width="1877" height="386" key="GridCell.Tab.1.bottom/-1920.0.1920.1160/0.0.1920.1160@-1920.0.1920.1160" timestamp="1581116076019" />
+    <state width="1877" height="386" key="GridCell.Tab.1.center" timestamp="1581116076019">
+      <screen x="-1920" y="0" width="1920" height="1160" />
+    </state>
+    <state width="1877" height="386" key="GridCell.Tab.1.center/-1920.0.1920.1160/0.0.1920.1160@-1920.0.1920.1160" timestamp="1581116076019" />
+    <state width="1877" height="386" key="GridCell.Tab.1.left" timestamp="1581116076019">
+      <screen x="-1920" y="0" width="1920" height="1160" />
+    </state>
+    <state width="1877" height="386" key="GridCell.Tab.1.left/-1920.0.1920.1160/0.0.1920.1160@-1920.0.1920.1160" timestamp="1581116076019" />
+    <state width="1877" height="386" key="GridCell.Tab.1.right" timestamp="1581116076019">
+      <screen x="-1920" y="0" width="1920" height="1160" />
+    </state>
+    <state width="1877" height="386" key="GridCell.Tab.1.right/-1920.0.1920.1160/0.0.1920.1160@-1920.0.1920.1160" timestamp="1581116076019" />
+    <state x="-1259" y="405" key="com.intellij.ide.util.TipDialog" timestamp="1581115277904">
+      <screen x="-1920" y="0" width="1920" height="1160" />
+    </state>
+    <state x="-1259" y="405" key="com.intellij.ide.util.TipDialog/-1920.0.1920.1160/0.0.1920.1160@-1920.0.1920.1160" timestamp="1581115277904" />
+    <state x="661" y="405" key="com.intellij.ide.util.TipDialog/-1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1581114662498" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -12,8 +12,8 @@ import java.io.IOException;
 public class FileHelper {
 
     /** These paths are where everything is loaded from/saved to */
-    public static final String initialDataPath = "C:/workspace/Java/solarsystem/data/solar_system.json";
-    public static final String savedDataPath = "C:/workspace/Java/solarsystem/data/simulation_results.json";
+    public static final String initialDataPath = "data/solar_system.json";
+    public static final String savedDataPath = "data/simulation_results.json";
 
     private FileHelper(){};
 
