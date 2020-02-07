@@ -13,11 +13,13 @@ import static com.maxwell.files.FileHelper.savedDataPath;
 public class Main {
 
     public static Window display;
+    public static double initTime = 0.0;
     public static ActiveData activeData;
 
     public static void main(String[] args) {
         runSimulation();
         activeData = new ActiveData(true);
+        initTime = System.nanoTime();
         displayOutput();
     }
 

@@ -2,9 +2,12 @@ package com.maxwell.display.drawing;
 
 import com.maxwell.main.Main;
 import com.maxwell.simulation.maths.objects.Vec3;
+import com.maxwell.simulation.resources.Constants;
 import com.maxwell.simulation.solarsystem.objects.SolarObjects;
 
 import java.util.ArrayList;
+
+import static com.maxwell.main.Main.initTime;
 
 public class Draw {
 
@@ -16,14 +19,19 @@ public class Draw {
         float sy = Main.display.scale_y;
 
         DrawingVerticies orbits = new DrawingVerticies();
-        orbits.initData();
+        double elapsedTime = System.nanoTime() - initTime;
 
-        float[] maxValues = HelperFunctions.findMaxValues(orbits.posData.get(6));
+        int daysElapsedInSimulation = (int) Math.round(elapsedTime * Constants.secondsInDay * 150 / 1E9);
+
+        orbits.getDataTillTimestamp(daysElapsedInSimulation);
+
+        float[] maxValues = HelperFunctions.findMaxValues(orbits.posData.get(orbits.posData.size() - 1));
+        float theMaxValue = Math.max(maxValues[0], maxValues[1]);
 
         for (ArrayList<Vec3> aBody : orbits.posData) {
             for(int i = 0; i < aBody.size(); i++) {
-                aBody.get(i).x(aBody.get(i).x() * sx / (maxValues[0]));
-                aBody.get(i).y(aBody.get(i).y() * sy / (maxValues[1]));
+                aBody.get(i).x(aBody.get(i).x() * sx / theMaxValue);
+                aBody.get(i).y(aBody.get(i).y() * sy / theMaxValue);
             }
         }
 
@@ -38,7 +46,6 @@ public class Draw {
             }
             doubleToFloat.add(ArrayBuilder);
         }
-
 
         for (int i = 0; i < SolarObjects.values().length; i ++) {
             GLShapes.drawOpenPolygon2D(doubleToFloat.get(i), lineWidth, SolarObjects.values()[i].orbitColour);
