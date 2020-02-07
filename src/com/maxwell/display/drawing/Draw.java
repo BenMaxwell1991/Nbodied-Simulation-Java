@@ -19,14 +19,23 @@ public class Draw {
         float sy = Main.display.scale_y;
 
         DrawingVerticies orbits = new DrawingVerticies();
-        double elapsedTime = System.nanoTime() - initTime;
 
-        int daysElapsedInSimulation = (int) Math.round(elapsedTime * Constants.secondsInDay * 150 / 1E9);
+        // Simulation seconds per Second
+        double simulationSpeed = Constants.secondsInDay * 150;
+        double elapsedTime = (System.nanoTime() - initTime) / 1E9;
+        int lengthOfOrbitTrail = Constants.secondsInDay * 300;
 
-        orbits.getDataTillTimestamp(daysElapsedInSimulation);
+        int finalTime = (int) Math.round(elapsedTime * simulationSpeed);
+        int initTime = finalTime - (lengthOfOrbitTrail);
+
+        try {
+            orbits.getDataTillTimestamp(initTime, finalTime);
+        } catch (CloneNotSupportedException e) {
+            //TODO: Handle later
+        }
 
         float[] maxValues = HelperFunctions.findMaxValues(orbits.posData.get(orbits.posData.size() - 1));
-        float theMaxValue = Math.max(maxValues[0], maxValues[1]);
+        float theMaxValue = Math.max(maxValues[0], maxValues[1]) * 1.2f;
 
         for (ArrayList<Vec3> aBody : orbits.posData) {
             for(int i = 0; i < aBody.size(); i++) {

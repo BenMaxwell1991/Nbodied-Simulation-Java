@@ -1,21 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidGradleBuildConfiguration">
+    <option name="COMMAND_LINE_OPTIONS" value="--debug" />
+  </component>
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="workspace:jar" />
+      <artifact name="Solar_System.jar" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="05e55591-e68c-4d35-b391-d81954d664a4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/workspace_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/SolarSystem.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/workspace/com/maxwell/display/drawing/Draw.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/workspace/com/maxwell/display/drawing/Draw.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/workspace/com/maxwell/display/drawing/DrawingVerticies.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/workspace/com/maxwell/display/drawing/DrawingVerticies.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/workspace/com/maxwell/display/drawing/HelperFunctions.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/workspace/com/maxwell/display/drawing/HelperFunctions.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/workspace/com/maxwell/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/workspace/com/maxwell/main/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/workspace/com/maxwell/display/drawing/Draw.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/workspace/com/maxwell/display/drawing/DrawingVerticies.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/workspace/com/maxwell/display/drawing/GLShapes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/workspace/com/maxwell/display/drawing/HelperFunctions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/workspace/com/maxwell/display/mainwindow/CallBackFunctions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/workspace/com/maxwell/display/mainwindow/Window.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/workspace/com/maxwell/display/screenresolution/ScreenResolution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/workspace/com/maxwell/display/screenresolution/ScreenResolutionFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/workspace/com/maxwell/files/FileHelper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/workspace/com/maxwell/main/ActiveData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/workspace/com/maxwell/main/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/workspace/com/maxwell/simulation/maths/methods/CalculateTimestep.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/workspace/com/maxwell/simulation/maths/methods/MaxwellSimple.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/workspace/com/maxwell/simulation/maths/objects/Vec3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/workspace/com/maxwell/simulation/resources/Constants.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/workspace/com/maxwell/simulation/solarsystem/calculate/CenterOfMass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/workspace/com/maxwell/simulation/solarsystem/calculate/InertialFrame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/workspace/com/maxwell/simulation/solarsystem/calculate/Iterate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/workspace/com/maxwell/simulation/solarsystem/calculate/Simulation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/workspace/com/maxwell/simulation/solarsystem/data/TestData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/workspace/com/maxwell/simulation/solarsystem/data/WriteData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/workspace/com/maxwell/simulation/solarsystem/objects/CelestialBody.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/workspace/com/maxwell/simulation/solarsystem/objects/NBodiedSystem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/workspace/com/maxwell/simulation/solarsystem/objects/PhysicalObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/workspace/com/maxwell/simulation/solarsystem/objects/SimulationData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/workspace/com/maxwell/simulation/solarsystem/objects/SolarObjects.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/workspace/com/maxwell/zBitsAndBobs/ClassWithValues.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/workspace/com/maxwell/zBitsAndBobs/Modify.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/workspace/com/maxwell/zBitsAndBobs/TestShapes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/workspace/com/maxwell/zBitsAndBobs/TestTriangleOpenGL.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/maxwell/display/drawing/Draw.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/maxwell/display/drawing/Draw.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/maxwell/display/drawing/DrawingVerticies.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/maxwell/display/drawing/DrawingVerticies.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/maxwell/display/drawing/HelperFunctions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/maxwell/display/drawing/HelperFunctions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/maxwell/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/maxwell/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Solar_System.iml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,11 +72,12 @@
   </component>
   <component name="ProjectId" id="1Tq7oBIzAA5iD5X3kRmnY7Pggyb" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
+    <property name="settings.editor.selected.configurable" value="gradle.compiler" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -69,7 +102,7 @@
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.maxwell.main.Main" />
-      <module name="workspace" />
+      <module name="Solar_System" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method v="2">

@@ -19,7 +19,7 @@ public class Main {
     public static void main(String[] args) {
         runSimulation();
         activeData = new ActiveData(true);
-        initTime = System.nanoTime();
+        initTime = System.nanoTime() + 2E9;
         displayOutput();
     }
 
@@ -29,7 +29,7 @@ public class Main {
 
     // Load start conditions, run simulation, save data
     private static void runSimulation() {
-        Simulation sim = new Simulation(3600, 3650, 50);
+        Simulation sim = new Simulation(3600, 20000, 50);
 
         try {
             sim.simulateSolarSystem(initialDataPath, savedDataPath);

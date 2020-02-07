@@ -20,16 +20,25 @@ public class HelperFunctions {
         return positionData;
     }
 
-    public static ArrayList<Vec3> getPositionDataByObjectUntilTimestamp(int x, int timestamp) throws CloneNotSupportedException {
+    public static ArrayList<Vec3> getPositionDataByObjectUntilTimestamp(int x, int initTime, int finalTime) throws CloneNotSupportedException {
         ArrayList<Vec3> positionData = new ArrayList<>();
 
-        for (int i = 0; i < Main.getSimulationData().size(); i++) {
+        for (int i = getFirstFrame(initTime); i < Main.getSimulationData().size(); i++) {
             positionData.add((Vec3) (Main.getSimulationData().get(i).getObjects().get(x).position).clone());
-            if (Main.getSimulationData().get(i).getTimeElapsed() >= timestamp) {
+            if (Main.getSimulationData().get(i).getTimeElapsed() >= finalTime) {
                 break;
             }
         }
         return positionData;
+    }
+
+    public static int getFirstFrame(int ts) {
+        for (int i = 0; i < Main.getSimulationData().size(); i++) {
+            if (Main.getSimulationData().get(i).getTimeElapsed() >= ts) {
+                return i;
+            }
+        }
+        return 0;
     }
 
     public static float[] findMaxValues(ArrayList<Vec3> array) {

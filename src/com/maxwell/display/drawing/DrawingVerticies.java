@@ -23,14 +23,10 @@ public class DrawingVerticies {
         }
     }
 
-    public void getDataTillTimestamp(int timestamp) {
-        try {
-            int n = Main.getSimulationData().get(0).getObjects().size();
-            for (int i = 0; i < n; i++) {
-                posData.add(getPositionDataByObjectUntilTimestamp(i, timestamp));
-            }
-        } catch (CloneNotSupportedException e) {
-            // Should not hit this
+    public void getDataTillTimestamp(int initTime, int finalTime) throws CloneNotSupportedException {
+        int n = Main.getSimulationData().get(0).getObjects().size();
+        for (int i = 0; i < n; i++) {
+            posData.add(getPositionDataByObjectUntilTimestamp(i, initTime, finalTime));
         }
     }
 
